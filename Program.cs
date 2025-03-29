@@ -19,4 +19,4 @@ do
     }
 } while (string.IsNullOrEmpty(phrase) || !phrase.Any(char.IsLetter));
 
-Console.WriteLine($"Cebolinha: {phrase.Replace('r', 'l')}");
+Console.WriteLine($"Cebolinha: {phrase.Replace('r', 'l').Replace('R', 'L')}");
